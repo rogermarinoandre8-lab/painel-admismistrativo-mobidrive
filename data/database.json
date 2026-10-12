@@ -1,0 +1,43 @@
+{
+  "motoristas": [],
+  "veiculos": [],
+  "passageiros": [],
+  "corridas": [],
+  "solicitacoesRecarga": [],
+  "faturamento": [],
+  "dispositivosConectados": [],
+  "tarifas": {
+    "taxaBase": 0,
+    "valorPorKm": 0,
+    "taxaPorMinuto": 0,
+    "taxaCancelamento": 0,
+    "taxaMinima": 0,
+    "categorias": {
+      "Sedan": {
+        "taxaBase": 0,
+        "valorPorKm": 0
+      },
+      "Hatchback": {
+        "taxaBase": 0,
+        "valorPorKm": 0
+      },
+      "SUV": {
+        "taxaBase": 0,
+        "valorPorKm": 0
+      },
+      "Moto": {
+        "taxaBase": 0,
+        "valorPorKm": 0
+      },
+      "Premium": {
+        "taxaBase": 0,
+        "valorPorKm": 0
+      }
+    },
+    "pontosEspecificos": []
+  },
+  "config": {
+    "googleMapsApiKey": "AIzaSyC049pM2oi3Hk5vxP-6KxyQLHOSon-wwag",
+    "appsScriptUrl": ""
+  }
+}

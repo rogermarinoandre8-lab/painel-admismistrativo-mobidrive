@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel Admin MobiDrive</title>
+    <meta name="description" content="Painel Admin MobiDrive - Gestão e operações da frota de transporte com rastreamento em tempo real, reconhecimento OCR de CNH e solicitações de recarga de créditos." />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="alternate icon" href="./favicon.ico" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="theme-color" content="#10B981" />
+    <meta property="og:title" content="Painel Admin MobiDrive" />
+    <meta property="og:description" content="Painel Admin MobiDrive - Gestão e operações da frota de transporte com rastreamento em tempo real, reconhecimento OCR de CNH e solicitações de recarga de créditos." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/images/dashboard-preview.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Painel Admin MobiDrive" />
+    <meta name="twitter:description" content="Painel Admin MobiDrive - Gestão e operações da frota de transporte com rastreamento em tempo real, reconhecimento OCR de CNH e solicitações de recarga de créditos." />
+    <meta name="twitter:image" content="./assets/images/dashboard-preview.jpg" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script>
+      window.gm_authFailure = function() {
+        console.warn("Google Maps JavaScript API Billing/Auth error detected (BillingNotEnabledMapError). Hybrid failover active.");
+        window.googleMapsBillingError = true;
+        window.dispatchEvent(new CustomEvent('google-maps-billing-error'));
+      };
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC049pM2oi3Hk5vxP-6KxyQLHOSon-wwag&libraries=places,geometry,drawing" async defer></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

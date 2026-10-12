@@ -1,0 +1,11 @@
+{
+  "name": "Painel Admin MobiDrive",
+  "description": "Painel Admin MobiDrive - Gestão e operações da frota de transporte com rastreamento em tempo real, reconhecimento OCR de CNH, solicitações de recarga e despacho reativo com trava anti-concorrência.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+
